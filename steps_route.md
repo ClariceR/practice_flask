@@ -65,6 +65,14 @@ def get_flight_by_id(fid):
     return jsonify(search_flight(fid, flights))
 ```
 
+> Note that we pass only the `fid` to the `get_flight_by_id` function,
+> as that's the parameter that comes from the url in the decorator.
+> Also, if we called the variable `fid` in the url, we need to pass it as `fid`
+> to the function below, and to the helper function.
+> It has to be the same name, or it won't work.
+> 
+> If we pass `flights` as well, it won't work.
+
 We finish by adding this to the end of the file:
 ```buildoutcfg
 if __name__ == '__main__':

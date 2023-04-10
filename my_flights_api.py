@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from flights_data import flights
+from utils import search_flights
 
 app = Flask(__name__)
 
@@ -12,6 +13,11 @@ def welcome_message():
 @app.route('/flights')
 def get_flights():
     return jsonify(flights)
+
+
+@app.route('/flights/<int:fid>')
+def get_flight_by_id(fid):
+    return jsonify(search_flights(fid, flights))
 
 
 if __name__ == '__main__':
