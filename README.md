@@ -2,7 +2,7 @@
 
 ### Simple app to practice:
 1. creating routes
-2. sending GET, POST, PUT abd DELETE requests
+2. sending GET, POST, PUT and DELETE requests
 3. get the info and displaying it
 
 **First iteration**

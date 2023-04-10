@@ -76,5 +76,7 @@ The run() function runs the application with our local server.
 
 as we all know 😉 `if __name__ == '__main__':`  ensures that the server only runs our app if the script is executed directly from the Python Interpreter.
 
-If we use it as an imported module (for exemple when we get to test it), then the script won't run, and that's exactly what we want.
+If we use it as an imported module (for example when we get to test it), then the script won't run, and that's exactly what we want.
+
+When we run our app, we can see it in our local server.
 
