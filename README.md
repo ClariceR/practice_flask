@@ -13,5 +13,7 @@
 
 *Get the info from a real DB*
 
+[Project setup](/steps_setup.md)
 
+[Flask App file setup](/steps_route.md)
 
