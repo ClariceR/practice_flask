@@ -30,3 +30,23 @@ def search_flights(fid, flights):
     return flights_found
 ```
 
+### How can we can get the index of the flight in a list?
+
+*In our decorator, if the method is DELETE,
+we can trigger a function that takes the `fid` from the url,
+finds the flight with that id and deletes it.*
+
+*We could find the index of the flight in the flights list,
+and use `.pop()` to remove it from the list*
+
+*We can then create a helper function to get the index we need to remove*
+
+*We can use the enumerate function to get both the flight and the index*
+
+```buildoutcfg
+def get_index(fid, flights):
+    for i, flight in enumerate(flights):
+        if flight['flight_id'] == fid:
+            return i
+    return -1
+```
