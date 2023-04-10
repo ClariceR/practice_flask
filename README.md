@@ -17,3 +17,5 @@
 
 [Flask App file setup](/steps_route.md)
 
+[Creating helper functions](/steps_helper_functions.md)
+
