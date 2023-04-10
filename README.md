@@ -1,9 +1,13 @@
 # Build API with Flask practice
 
 ### Simple app to practice:
-1. creating routes
-2. sending GET, POST, PUT and DELETE requests
-3. get the info and displaying it
+> creating routes
+> 
+> adding tests 
+> 
+> sending GET, POST, PUT and DELETE requests 
+> 
+> get the info and displaying it
 
 **First iteration**
 
