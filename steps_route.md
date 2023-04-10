@@ -58,7 +58,14 @@ def get_flight(fid):
     return jsonify(search_flight(fid, flights))
 ```
 
-We finish by adding
+Together:
+```buildoutcfg
+@app.route('/flights/<int:fid>')
+def get_flight_by_id(fid):
+    return jsonify(search_flight(fid, flights))
+```
+
+We finish by adding this to the end of the file:
 ```buildoutcfg
 if __name__ == '__main__':
     app.run(debug=True)
