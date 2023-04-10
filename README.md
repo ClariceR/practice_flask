@@ -19,3 +19,5 @@
 
 [Creating helper functions](/steps_helper_functions.md)
 
+[Testing the app](/steps_testing.md)
+
