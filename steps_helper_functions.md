@@ -30,14 +30,3 @@ def search_flights(fid, flights):
     return flights_found
 ```
 
-### How can we can get the index of the flight in a list?
-
-*We can use the enumerate function to get both the flight and the index*
-
-```buildoutcfg
-def get_index(fid, flights):
-    for i, flight in enumerate(flights):
-        if flight['flight_id'] == fid:
-            return i
-    return -1
-```
